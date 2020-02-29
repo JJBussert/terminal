@@ -91,4 +91,8 @@
 
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
-    "k
+    "keybindings": [
+        { "command": "copy", "keys": ["ctrl+c"] },
+        { "command": "paste", "keys": ["ctrl+v"] }
+    ]
+}
