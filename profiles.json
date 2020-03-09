@@ -14,7 +14,7 @@
             "name": "SPR",
             "commandline": "pwsh.exe",
             "fontFace":"Delugia Nerd Font",
-            "acrylicOpacity": 0.9,
+            "acrylicOpacity": 0.5,
             "useAcrylic": true,
             "hidden": false,
             "startingDirectory": "C:\\_",
