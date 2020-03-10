@@ -14,7 +14,7 @@
             "name": "SPR",
             "commandline": "pwsh.exe",
             "fontFace":"Delugia Nerd Font",
-            "acrylicOpacity": 0.5,
+            "acrylicOpacity": 0.7,
             "useAcrylic": true,
             "hidden": false,
             "startingDirectory": "C:\\_",
@@ -37,8 +37,8 @@
             "startingDirectory": "C:\\_",
             "cursorShape": "vintage",
             "cursorColor": "#00ffff",
-            "icon": "C:\\_\\_terminal\\E13mkIII_white.png",
-            "backgroundImage": "C:\\_\\_terminal\\E13mkIII_white.png",
+            "icon": "C:\\_\\_terminal\\e13_white.png",
+            "backgroundImage": "C:\\_\\_terminal\\e13_white.png",
             "backgroundImageOpacity": 0.3,
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageStretchMode": "none"
@@ -63,6 +63,7 @@
             "hidden": false,
             "name": "Azure Cloud Shell",
             "fontFace":"Delugia Nerd Font",
+            "startingDirectory": "C:\\_",
             "acrylicOpacity": 0.7,
             "useAcrylic": true,
             "source": "Windows.Terminal.Azure"
@@ -74,6 +75,7 @@
             "commandline": "cmd.exe",
             "acrylicOpacity": 0.7,
             "backgroundImage": "C:\\_\\_terminal\\msdos.gif",
+            "startingDirectory": "C:\\_",
             "backgroundImageOpacity": 0.3,
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageStretchMode": "none"
@@ -83,6 +85,13 @@
             "hidden": true,
             "name": "PowerShell",
             "source": "Windows.Terminal.PowershellCore"
+        },
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "startingDirectory": "C:\\_",
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl"
         }
     ],
 
