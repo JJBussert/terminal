@@ -13,7 +13,7 @@
             "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
             "name": "SPR",
             "commandline": "pwsh.exe",
-            "fontFace":"Delugia Nerd Font",
+            "fontFace":"Cascadia Code PL",
             "acrylicOpacity": 0.7,
             "useAcrylic": true,
             "hidden": false,
@@ -30,7 +30,7 @@
             "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bb}",
             "name": "E13",
             "commandline": "pwsh.exe",
-            "fontFace":"Delugia Nerd Font",
+            "fontFace":"Cascadia Code PL",
             "acrylicOpacity": 0.7,
             "useAcrylic": true,
             "hidden": false,
@@ -47,7 +47,7 @@
             "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
             "hidden": false,
             "name": "kali",
-            "fontFace":"Delugia Nerd Font",
+            "fontFace":"Cascadia Code PL",
             "startingDirectory": "C:\\_",
             "acrylicOpacity": 0.7,
             "useAcrylic": true,
@@ -62,7 +62,7 @@
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
             "hidden": false,
             "name": "Azure Cloud Shell",
-            "fontFace":"Delugia Nerd Font",
+            "fontFace":"Cascadia Code PL",
             "startingDirectory": "C:\\_",
             "acrylicOpacity": 0.7,
             "useAcrylic": true,
@@ -92,6 +92,12 @@
             "startingDirectory": "C:\\_",
             "name": "Ubuntu",
             "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{63e31163-583f-5850-9c1e-24e227dd2da9}",
+            "hidden": false,
+            "name": "PowerShell (dotnet global)",
+            "source": "Windows.Terminal.PowershellCore"
         }
     ],
 
