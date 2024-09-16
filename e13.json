@@ -59,7 +59,7 @@
             "threshold": 0
           },
           "style": "diamond",
-          "template": "{{ if eq .OS \"windows\" }} \ueba2 {{ .FormattedMs }} {{ else }} \ueba2 {{ .Ms }}ms {{ end }}\u2800",
+          "template": " \ueba2 {{ .FormattedMs }}\u2800",
           "trailing_diamond": "\ue0b4",
           "type": "executiontime"
         }
